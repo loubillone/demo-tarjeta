@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tarjeta demo</title>
+  </head>
+  <body>
+    <header>
+      <!--IMAGEN HEADER-->
+      <div>
+        <img src="./assets/floresUp.png" alt="flores" />
+      </div>
+
+      <!--AUDIO + BOTONES-->
+      <audio
+        id="player"
+        src="./assets/Christina Perri - A Thousand Years [Official Music Video].mp3"
+      ></audio>
+
+      <div class="container_botones">
+        <button
+          onclick="document.getElementById('player').play()"
+          class="btn btn-primary btn-musica"
+        >
+          <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+        </button>
+        <button
+          onclick="document.getElementById('player').pause()"
+          class="btn btn-primary btn-musica"
+        >
+          <i class="fa fa-pause-circle-o" aria-hidden="true"></i>
+        </button>
+        <!-- <button onclick="document.getElementById('player').volume+=0.1">
+            Volumen +
+          </button>
+          <button onclick="document.getElementById('player').volume-=0.1">
+            Volumen -
+          </button> -->
+      </div>
+
+      <!--IMAGEN HEADER-->
+      <div>
+        <img src="./assets/floresDown.png" alt="flores" />
+      </div>
+    </header>
+
+    <main>
+      <!--NOMBRE CUMPLE + FECHA-->
+      <div class="container-principal">
+        <h1 class="ephesis-regular animate__animated animate__backInDown">
+          Antonella
+        </h1>
+        <span class="ephesis-regular fecha-cumple">11/03/2024</span>
+      </div>
+      <!--Cuenta regresiva-->
+      <section class="container_cuentaRegresiva">
+        <h2 class="ephesis-regular animate__animated animate__bounceInLeft">
+          ¿Cuánto falta?
+        </h2>
+        <div class="cuentaRegresiva">
+          <div class="container_tiempo">
+            <span id="days" class="texto-tiempo"></span>:
+
+            <span id="hours" class="texto-tiempo"></span>:
+
+            <span id="minutes" class="texto-tiempo"></span>:
+
+            <span id="seconds" class="texto-tiempo"></span>
+          </div>
+
+          <div class="container-texto_tiempo">
+            <span class="texto-tiempo">Días</span>
+            <span class="texto-tiempo">Hs</span>
+            <span class="texto-tiempo">Min</span>
+            <span class="texto-tiempo">Seg</span>
+          </div>
+        </div>
+      </section>
+
+      <!--CARDS-->
+
+      <!--Flor-->
+      <div class="container_flor-izq">
+        <img src="./assets/floresbg.png" alt="" />
+      </div>
+
+      <section>
+        <!--Lugar-->
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-10 offset-1">
+              <div class="card card-seccion text-center">
+                <img
+                  src="./assets/salud (1).png"
+                  class="card-img-top img_card"
+                  alt="copas"
+                />
+                <div class="card-body">
+                  <h5 class="card-title pb-2">Celebración</h5>
+                  <p class="card-text">Oliveto Salon De Eventos - 22 hs</p>
+                  <p>Federico Rossi 1002, Yerba Buena</p>
+                  <a
+                    href="https://maps.app.goo.gl/R7P2fhsTppygJ7YT9"
+                    class="btn btn-primary btn-card-seccion mt-2"
+                    >Cómo llegar</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Flor-->
+        <div class="container_flor-der">
+          <img src="./assets/floresbg.png" alt="" />
+        </div>
+        <!--Dress Code-->
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-10 offset-1">
+              <div class="card card-seccion_especial text-center">
+                <img
+                  src="./assets/chaleco.png"
+                  class="card-img-top img_card"
+                  alt="chaleco"
+                />
+                <div class="card-body">
+                  <h5 class="card-title pb-2">Dress Code</h5>
+                  <p class="card-text">Elegante</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Flor-->
+        <div class="container_flor-izq">
+          <img src="./assets/floresbg.png" alt="" />
+        </div>
+        <!--Instagram-->
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-10 offset-1">
+              <div class="card card-seccion text-center">
+                <img
+                  src="./assets/camara.png"
+                  class="card-img-top img_card"
+                  alt="camara"
+                />
+                <div class="card-body">
+                  <a
+                    href="https://www.instagram.com/"
+                    class="btn btn-primary btn-card-seccion mb-2"
+                    >#MISQUINCEAÑOS</a
+                  >
+                  <p class="card-text mt-2">
+                    Usá mi #MISQUINCEAÑOS para subir las fotos de recuerdos que
+                    quieras compartir conmigo y las que saques en el cumple
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Flor-->
+        <div class="container_flor-der">
+          <img src="./assets/floresbg.png" alt="" />
+        </div>
+        <!--Confirmar asistencia-->
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-10 offset-1">
+              <div class="card card-seccion_especial text-center">
+                <img
+                  src="./assets/atender.png"
+                  class="card-img-top img_card"
+                  alt="atender"
+                />
+                <div class="card-body">
+                  <h5 class="card-title pb-2">Confirmar asistencia</h5>
+
+                  <a
+                    href="https://api.whatsapp.com/send?phone=3815187503&text=Hola%20Anto,%20confirmo%20asistencia!"
+                    class="btn btn-primary btn-card-seccion mt-2"
+                    >Whatsapp</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <div>
+          <img src="./assets/floresUp.png" alt="flores" />
+        </div>
+      </div>
+
+      <p class="ephesis-regular">Te espero!</p>
+      <div>
+        <img src="./assets/floresDown.png" alt="" />
+      </div>
+    </footer>
+
+    <div class="publicidad">
+      <span>Tarjetas virtuales &copy;2024 Derechos reservados</span>
+    </div>
+
+    <script src="https://use.fontawesome.com/c2813ccf5b.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/cuenta.js"></script>
+  </body>
+</html>
