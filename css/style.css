@@ -107,6 +107,7 @@ main h2 {
   border: 4px double #888863;
   border-radius: 0.5rem;
   color: #9e9b94;
+  box-shadow: 5px 5px 15px -1px #7b7958;
 }
 
 .card-seccion h5 {
@@ -120,6 +121,7 @@ main h2 {
   border: 4px double #888863;
   border-radius: 0.5rem;
   color: #9e9b94;
+  box-shadow: 5px 5px 15px -1px #7b7958;
 }
 
 .card-seccion_especial h5 {
