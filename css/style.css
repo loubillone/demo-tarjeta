@@ -132,12 +132,27 @@ main h2 {
   padding: 1rem;
 }
 
+/*BOTON CARDS */
 .btn-card-seccion {
   border-radius: 5rem;
   background-color: #4e5f4b;
   border: none;
   font-size: 1.1rem;
   padding: 1rem 2rem 1rem 2rem;
+}
+
+/*BOTON DESCARGA */
+.btn-descarga {
+  border-radius: 1rem;
+  background-color: #4e5f4b;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.btn-descarga a {
+  text-decoration: none;
+  color: white;
 }
 
 /*FLOR DECORATIVA CARDS */
@@ -185,7 +200,7 @@ footer img {
 /*MARCA */
 
 .publicidad {
-  background-color: rgb(21, 14, 29);
+  background-color: rgb(74, 48, 103);
   height: 3rem;
   display: flex;
   align-items: center;
@@ -195,5 +210,5 @@ footer img {
 
 .publicidad span {
   font-weight: bold;
-  color: rgb(91, 91, 91);
+  color: rgb(185, 179, 179);
 }
