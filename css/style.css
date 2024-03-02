@@ -40,6 +40,7 @@ header img {
   border-radius: 100%;
   background-color: #6d6b67;
   border: none;
+  color: white;
 }
 
 /*MAIN */
@@ -136,12 +137,19 @@ main h2 {
 }
 
 /*BOTON CARDS */
+
 .btn-card-seccion {
   border-radius: 5rem;
   background-color: #4e5f4b;
   border: none;
   font-size: 1rem;
   padding: 0.9rem 1.8rem 0.9rem 1.8rem;
+  box-shadow: 5px 5px 15px -1px #7b7958;
+}
+
+.btn-card-seccion a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 /*BOTON DESCARGA */
