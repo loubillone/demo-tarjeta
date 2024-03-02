@@ -19,8 +19,11 @@
 
 body {
   /* background-color: #bcc7b6; */
-  background-color: #efefea;
+  /* background-color: #efefea; */
   background-image: url(../assets/paper\ wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
 }
 
 /*HEADER: imágenes + audio */
@@ -137,8 +140,8 @@ main h2 {
   border-radius: 5rem;
   background-color: #4e5f4b;
   border: none;
-  font-size: 1.1rem;
-  padding: 1rem 2rem 1rem 2rem;
+  font-size: 1rem;
+  padding: 0.9rem 1.8rem 0.9rem 1.8rem;
 }
 
 /*BOTON DESCARGA */
@@ -147,7 +150,7 @@ main h2 {
   background-color: #4e5f4b;
   border: none;
   font-size: 1rem;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 .btn-descarga a {
