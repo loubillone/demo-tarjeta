@@ -18,8 +18,6 @@
 } */
 
 body {
-  /* background-color: #bcc7b6; */
-  /* background-color: #efefea; */
   background-image: url(../assets/paper\ wallpaper.jpg);
   background-repeat: no-repeat;
   background-position: right top;
@@ -111,6 +109,7 @@ main h2 {
   border-radius: 0.5rem;
   color: #9e9b94;
   box-shadow: 5px 5px 15px -1px #7b7958;
+  background-color: #efefea;
 }
 
 .card-seccion h5 {
@@ -125,6 +124,7 @@ main h2 {
   border-radius: 0.5rem;
   color: #9e9b94;
   box-shadow: 5px 5px 15px -1px #7b7958;
+  background-color: #efefea;
 }
 
 .card-seccion_especial h5 {
